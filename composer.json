@@ -1,0 +1,34 @@
+{
+    "name": "faiznurullah/lib-tokopay-unofficial",
+    "description": "library for connectionn with tokopay payment gateway",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Faiznurullah\\LibTokopayUnofficial\\": "tokopay/"
+        }
+    },
+    "authors": [
+        {
+            "name": "faiz nurullah",
+            "email": "faizn103a@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": { 
+        "illuminate/support": "^9.0.0|^10.0.0"
+      },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.0"
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Faiznurullah\\Tokopay\\TokopayServiceProvider"
+          ],
+          "aliases": {
+            "Tokopay": "Faiznurullah\\Tokopay\\TokopayFacade"
+          }
+        }
+      }
+}
