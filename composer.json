@@ -1,7 +1,7 @@
 {
     "name": "faiznurullah/lib-tokopay-unofficial",
-    "description": "library for connectionn with tokopay payment gateway",
-    "type": "library",
+    "description": "Package for connectionn with tokopay payment gateway",
+    "type": "package",
     "license": "MIT",
     "autoload": {
         "psr-4": {

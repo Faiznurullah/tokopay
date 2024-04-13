@@ -80,7 +80,7 @@
         return $response; 
      }
 
-     public function checkTransaction($refID,$nominal,$channelCode){
+     public function checkTransaction($refID,$channelCode, $nominal){
         $merchantID = $this->merchantID;
         $secretKey = $this->secretKey;
         $curl = curl_init();
